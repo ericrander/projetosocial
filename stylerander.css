@@ -5,6 +5,11 @@
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 html , body {
     background-color: black;
     width: 100vw;
@@ -29,19 +34,30 @@ section#telefone {
    
 }
 
-#tela {
+iframe#tela {
     position: relative;
     top: 80px;
     left: 22px ;
     width: 264px;
     height: 469px;
+    
 }
 
-section img {
-    margin: 5px;
+section#menu {
+    text-align: right;
+}
+
+section#menu img {
+    margin: 8px;
     width: 50px;
     border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.679);
 }
 section img:hover {
-    
+    border: 2px solid rgba(245, 245, 245, 0.708);
+    box-sizing: border-box;
+    transform: translate(-2px,-2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.512);
+    transition: trasnform 0.9s border 0.9s;
+   
 }
