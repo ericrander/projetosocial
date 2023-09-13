@@ -5,11 +5,6 @@
     margin: 0px;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 html , body {
     background-color: black;
     width: 100vw;
@@ -17,7 +12,6 @@ html , body {
 }
 
 main {
-    position: relative;
     height: 100vh;
     background: black url('imagens/fundo-madeira.jpg') center center no-repeat fixed;
     background-size: cover;
